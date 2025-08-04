@@ -172,3 +172,7 @@ footer img{
     width: 70px;
     padding: 20px 20px;
 }
+
+#esconder{
+    display: none;
+}
