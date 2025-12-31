@@ -24,7 +24,7 @@ nav{
     background-color: #a30714;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 nav a{
     text-decoration: none;
@@ -34,9 +34,18 @@ nav a{
 .aqui{
     font-weight: bold;
 }
+.comunica{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.comunica img{
+    width: 25px;
+}
 
 header{
-    background-image: url('imagenes/header.png');
+    background-image: url('imagenes/header.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -66,6 +75,26 @@ header{
     /* position: absolute;
     transform: translateY(-50px); */
 }
+.botones{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botones a{
+    color: white;
+    margin: 30px;
+    background-color: #963434;
+    padding: 5px;
+    border-radius: 18px;
+}
+.boton{
+    display: flex;
+    flex-direction: column;    
+}
+
+
 
 .targeta{
     display: flex;
@@ -154,7 +183,7 @@ header{
     padding: 10px 10px;
     transition: ease 0.2s;
 }
-.ubicacion:active{
+.boton:active{
     background-color: #f3e5d3;
     color:black;
     box-shadow: 0 0 10px white;
